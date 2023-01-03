@@ -3,9 +3,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Peer from 'simple-peer';
 import io from 'socket.io-client';
 
-const socket = io.connect(
-  'https://react-video-calling-socket-production.up.railway.app/'
-);
+const socket = io.connect('https://react-video-socket.onrender.com/');
 
 const Home = () => {
   //   const [call, setCall] = useState()
